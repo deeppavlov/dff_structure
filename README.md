@@ -1,5 +1,5 @@
 ```python
-from dff.context_storages import JSONConnector
+from dff.context_storages import JSONStorage
 
 from dff.messengers.common import MessengerInterface
 from dff.messengers.telegram import MessengerInterface
