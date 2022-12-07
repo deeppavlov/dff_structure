@@ -1,8 +1,8 @@
 ```python
-from dff.storage_context import JSONConnector
+from dff.context_storages import JSONConnector
 
-from dff.messenger.common import MessengerInterface
-from dff.messenger.telegram import MessengerInterface
+from dff.messengers.common import MessengerInterface
+from dff.messengers.telegram import MessengerInterface
 
 from dff.pipeline import Pipeline
 
